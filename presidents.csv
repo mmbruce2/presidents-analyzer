@@ -1,0 +1,24 @@
+name,years,start_age,party,electoral_vote,popular_vote_margin,scandals,achievements,wars,gdp_growth,reelect
+George Washington,1789-1797,57,Independent,100,,0,5,0,0.0,Served 2 terms
+John Adams,1797-1801,61,Federalist,71,3.2,0,3,0,1.2,Lost
+Thomas Jefferson,1801-1809,57,Democratic-Republican,73,3.1,0,5,0,1.5,Served 2 terms
+James Madison,1809-1817,57,Democratic-Republican,122,6.2,0,4,1,1.1,Served 2 terms
+James Monroe,1817-1825,58,Democratic-Republican,183,12.1,0,5,0,1.8,Served 2 terms
+Andrew Jackson,1829-1837,61,Democrat,68,12.4,1,4,1,2.2,Served 2 terms
+Abraham Lincoln,1861-1865,52,Republican,180,4.0,0,5,1,-2.0,Assassinated
+Ulysses S. Grant,1869-1877,46,Republican,214,12.1,2,2,0,3.1,Served 2 terms
+Woodrow Wilson,1913-1921,56,Democrat,435,3.1,0,4,1,2.8,Served 2 terms
+Franklin D. Roosevelt,1933-1945,51,Democrat,472,17.7,0,5,2,3.9,Served 4 terms
+Harry S. Truman,1945-1953,60,Democrat,189,4.5,0,4,0,3.0,Lost (deferred)
+Dwight D. Eisenhower,1953-1961,62,Republican,442,10.9,0,5,0,2.8,Served 2 terms
+John F. Kennedy,1961-1963,43,Democrat,303,0.1,0,3,0,2.5,Assassinated
+Lyndon B. Johnson,1963-1969,55,Democrat,486,22.6,0,4,1,2.5,Did not run
+Richard Nixon,1969-1974,56,Republican,520,0.7,3,2,0,2.1,Resigned
+Jimmy Carter,1977-1981,52,Democrat,297,2.1,0,3,0,1.8,Lost
+Ronald Reagan,1981-1989,69,Republican,489,9.7,0,5,0,3.1,Served 2 terms
+George H.W. Bush,1989-1993,64,Republican,426,5.6,0,3,1,1.5,Lost
+Bill Clinton,1993-2001,46,Democrat,370,5.6,1,4,0,2.7,Served 2 terms
+George W. Bush,2001-2009,54,Republican,271,-0.5,0,3,2,1.5,Served 2 terms
+Barack Obama,2009-2017,47,Democrat,365,7.3,0,4,0,1.5,Served 2 terms
+Donald Trump,2017-2021,70,Republican,304,-2.1,2,2,0,0.8,Lost
+Joe Biden,2021-2025,78,Democrat,306,4.5,0,3,0,1.9,Lost
