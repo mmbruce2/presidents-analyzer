@@ -1,47 +1,44 @@
-# 🏛️ US Presidents Analyzer
+# 🏛️ Presidents Analyzer
 
-Analyzes **23 US Presidents** across tenure, electoral dominance, scandals, wars, and economic impact. Compares Democrat vs Republican records, identifies patterns in success and failure.
+Analyzes **15 US Presidents** — tenure, age at inauguration, party affiliation, historical rankings, terms served, and key achievements.
 
 ## What It Does
 
-- **Electoral dominance** — Nixon 520 EV (1972), FDR 472 EV (1936), Reagan 489 EV (1984)
-- **Scandal tracking** — Nixon 3 scandals, Trump/Grant 2 each
-- **War presidents** — FDR & GW Bush led through 2 wars each
-- **Economic growth** — FDR tops at 3.9% avg GDP growth
-- **Age analysis** — JFK youngest (43), Biden oldest (78)
-- **4 charts**: electoral vote ranking, scandals vs achievements, GDP by president, age vs electoral dominance
+- **15 US Presidents** from Washington to Biden tracked
+- **Youngest inauguration**: JFK 43, Clinton 46, Grant 46, Obama 47, FDR 51
+- **Oldest inauguration**: Biden 78, Trump 70, Reagan 69, Bush 64, Eisenhower 62
+- **Longest tenure**: FDR 12 years (4 terms), Washington/Jefferson/Obama/Reagan 8 years each
+- **Top historical rankings**: Washington #1, Lincoln #1, Jefferson #3, FDR #3, Eisenhower #5, JFK #6
+- **Party breakdown**: D: 8 presidents (54 yrs avg age), R: 6 (60 yrs avg age), I: 1 (Washington)
+- **Terms**: 2-term presidents dominate (9), 1-term: 5, FDR 4-term unique
+- **4 charts**: Party pie, age at inauguration, tenure length, age vs ranking
 
 ## Quick Start
 
 ```bash
 pip install pandas matplotlib
-python analyzer.py
+python run.py
 ```
 
 ## Key Findings
 
 ```
-🏆 ELECTORAL DOMINANCE:
-   Nixon: 520 EV | Reagan: 489 EV | LBJ: 486 EV | FDR: 472 EV
+🏆 YOUNGEST PRESIDENTS:
+   JFK 43 | Clinton 46 | Grant 46 | Obama 47 | FDR 51
 
-💥 SCANDALS:
-   Nixon: 3 | Trump: 2 | Grant: 2
+🧓 OLDEST PRESIDENTS:
+   Biden 78 | Trump 70 | Reagan 69 | Bush 64
 
-⚔️ WAR PRESIDENTS:
-   FDR, GW Bush: 2 wars each
-   Lincoln, Wilson, LBJ, GHW Bush: 1 war each
+⏱️ LONGEST TENURE:
+   FDR 12 yrs (4 terms) | Washington/Jefferson/Obama/Reagan 8 yrs
 
-📈 GDP LEADERS:
-   FDR: 3.9% | Grant: 3.1% | Reagan: 3.1% | Truman: 3.0%
-
-👶👴 AGE EXTREMES:
-   Youngest: JFK (43), Bill Clinton (46), Grant (46)
-   Oldest: Biden (78), Trump (70), Reagan (69)
+📊 TOP HISTORICAL RANKINGS:
+   #1 Washington | #1 Lincoln | #3 Jefferson | #3 FDR | #5 Eisenhower
 ```
 
 ## Data Source
 
-Compiled from official presidential records, C-SPAN Presidential Historians Survey, and BLS GDP data.
+US Presidents historical data from presidential biographies, C-SPAN Historical Presidents Survey (2022), and Miller Center archives.
 
 ## Tech Stack
 
